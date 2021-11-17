@@ -1,59 +1,23 @@
-## Introduction
+## Building a Unity project with WebGL
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+To build a project using WebGL, make sure that WebGL has been selected in the build setting.
 
-### What you will make
+Click on **File** and then **Build Settings**.
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+![file menu shown with build settings highlighted](images/1_file_build_settings.png)
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+Make sure that **WebGL** is selected.
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+![Build And Run button highlighted on the Build Settings menu](images/7_build_run.png)
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
+Click on the **Build And Run** button, then choose where you want to save your built project. This will take a few minutes on your first run, but will be quicker on following builds.
 
-+ A computer or tablet capable of running Scratch 3
+You game should automatically open in your default web browser, and be playable.
 
-### Software
+![the WeGL player shown with a game running](images/8_webgl_player.png)
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
+In the location where you chose to save your project you should see an `index.html` file, a `Build` directory and a `Template` directory.
 
-### Downloads
+![two directories and an index file shown](images/8a_webgl_files.png)
 
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+Although your `index.html` file contains the player for your game, it will not run without using a webserver. The webserver was provided by Unity when you clicked **Build and Run**.
