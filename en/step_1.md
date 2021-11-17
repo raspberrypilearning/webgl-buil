@@ -1,18 +1,16 @@
 ## Building a Unity project with WebGL
 
-To build a project using WebGL, make sure that WebGL has been selected in the build setting.
+To build a project using WebGL, make sure that WebGL has been selected in the build settings.
 
 Click on **File** and then **Build Settings**.
 
 ![file menu shown with build settings highlighted](images/1_file_build_settings.png)
 
-Make sure that **WebGL** is selected.
+Make sure that **WebGL** is selected, then click on the **Build And Run** button, then choose where you want to save your built project. This will take a few minutes on your first run, but will be quicker on following builds.
 
 ![Build And Run button highlighted on the Build Settings menu](images/7_build_run.png)
 
-Click on the **Build And Run** button, then choose where you want to save your built project. This will take a few minutes on your first run, but will be quicker on following builds.
-
-You game should automatically open in your default web browser, and be playable.
+Your game should automatically open in your default web browser, and be playable.
 
 ![the WeGL player shown with a game running](images/8_webgl_player.png)
 
