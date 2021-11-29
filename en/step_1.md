@@ -1,5 +1,3 @@
-## Building a Unity project with WebGL
-
 To build a project using WebGL, make sure that WebGL has been selected in the build settings.
 
 Click on **File** and then **Build Settings**.
