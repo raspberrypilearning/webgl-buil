@@ -1,19 +1,19 @@
-To build a project using WebGL, make sure that WebGL has been selected in the build settings.
+Om een project te bouwen met WebGL, moet je ervoor zorgen dat WebGL is geselecteerd in de build instellingen.
 
-Click on **File** and then **Build Settings**.
+Klik op het **File** menu en daarna op **Build Settings...**.
 
-![file menu shown with build settings highlighted](images/1_file_build_settings.png)
+![file menu geselecteerd en Build settings gemarkeerd](images/1_file_build_settings.png)
 
-Make sure that **WebGL** is selected, then click on the **Build And Run** button, then choose where you want to save your built project. This will take a few minutes on your first run, but will be quicker on following builds.
+Zorg ervoor dat **WebGL** is geselecteerd, klik vervolgens op de knop **Build And Run** en kies vervolgens waar je jouw project wil opslaan. Dit duurt een paar minuten tijdens je eerste run, maar zal sneller zijn bij volgende builds.
 
-![Build And Run button highlighted on the Build Settings menu](images/7_build_run.png)
+![Build And Run button gemarkeerd in het Build Settings menu](images/7_build_run.png)
 
-Your game should automatically open in your default web browser, and be playable.
+Je game zou automatisch moeten openen in je standaard webbrowser en speelbaar moeten zijn.
 
-![the WeGL player shown with a game running](images/8_webgl_player.png)
+![de WebGL-speler wordt weergegeven met een spel dat draait](images/8_webgl_player.png)
 
-In the location where you chose to save your project you should see an `index.html` file, a `Build` directory and a `Template` directory.
+Op de locatie waar je je project hebt opgeslagen, zou je een `index.html` bestand, een `Build` directory en een `Template` directory moeten zien.
 
-![two directories and an index file shown](images/8a_webgl_files.png)
+![twee directories en een index bestand worden weergegeven](images/8a_webgl_files.png)
 
-Although your `index.html` file contains the player for your game, it will not run without using a webserver. The webserver was provided by Unity when you clicked **Build and Run**.
+Hoewel je `index.html` bestand de speler voor je spel bevat, zal het niet worden uitgevoerd zonder een webserver te gebruiken. De webserver werd aangeleverd door Unity toen je op **Build and Run** klikte.
