@@ -6,6 +6,8 @@ Click on **File** and then **Build Settings**.
 
 Make sure that **WebGL** is selected, then click on the **Build And Run** button, then choose where you want to save your built project. This will take a few minutes on your first run, but will be quicker on following builds.
 
+**Tip:** If you have just set up your WebGL Build Settings, you will need to click the **Switch** button before you see the **Build and Run** button.
+
 ![Build And Run button highlighted on the Build Settings menu](images/7_build_run.png)
 
 Your game should automatically open in your default web browser, and be playable.
