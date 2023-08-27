@@ -1,21 +1,21 @@
-To build a project using WebGL, make sure that WebGL has been selected in the build settings.
+Pour créer un projet utilisant WebGL, assure-toi que WebGL a été sélectionné dans build settings.
 
-Click on **File** and then **Build Settings**.
+Clique sur **File** puis sur **Build Settings**.
 
-![file menu shown with build settings highlighted](images/1_file_build_settings.png)
+![menu File affiché avec build settings en surbrillance](images/1_file_build_settings.png)
 
-Make sure that **WebGL** is selected, then click on the **Build And Run** button, then choose where you want to save your built project. This will take a few minutes on your first run, but will be quicker on following builds.
+Assure-toi que **WebGL** est sélectionné, puis clique sur le bouton **Build And Run**, puis choisis l'endroit où tu veux enregistrer ton projet créé. Cela prendra quelques minutes lors de ton premier passage, mais sera plus rapide lors des builds suivants.
 
-**Tip:** If you have just set up your WebGL Build Settings, you will need to click the **Switch** button before you see the **Build and Run** button.
+**Astuce :** Si tu viens de configurer tes paramètres de construction WebGL, tu devras cliquer sur le bouton **Switch** avant de voir le bouton **Build and Run**.
 
-![Build And Run button highlighted on the Build Settings menu](images/7_build_run.png)
+![Bouton Build And Run en surbrillance dans le menu Build Settings](images/7_build_run.png)
 
-Your game should automatically open in your default web browser, and be playable.
+Ton jeu devrait s'ouvrir automatiquement dans ton navigateur web par défaut, et être jouable.
 
-![the WeGL player shown with a game running](images/8_webgl_player.png)
+![le lecteur WeGL montré avec un jeu en cours d'exécution](images/8_webgl_player.png)
 
-In the location where you chose to save your project you should see an `index.html` file, a `Build` directory and a `Template` directory.
+À l'endroit où tu as choisi d'enregistrer ton projet, tu devrais voir un fichier `index.html`, un répertoire `Build` et un répertoire `Template`.
 
-![two directories and an index file shown](images/8a_webgl_files.png)
+![deux répertoires et un fichier index affichés](images/8a_webgl_files.png)
 
-Although your `index.html` file contains the player for your game, it will not run without using a webserver. The webserver was provided by Unity when you clicked **Build and Run**.
+Bien que ton fichier `index.html` contienne le joueur de ton jeu, il ne fonctionnera pas sans l'utilisation d'un serveur web. Le serveur web a été fourni par Unity lorsque tu as cliqué sur **Build and Run**.
