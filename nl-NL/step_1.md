@@ -6,6 +6,8 @@ Klik op het **File** menu en daarna op **Build Settings...**.
 
 Zorg ervoor dat **WebGL** is geselecteerd, klik vervolgens op de knop **Build And Run** en kies vervolgens waar je jouw project wil opslaan. Dit duurt een paar minuten tijdens je eerste run, maar zal sneller zijn bij volgende builds.
 
+**Tip:** Als je je WebGL Build instellingen hebt ingesteld, moet je op de knop **Switch** klikken voordat je de knop **Build and Run** kunt zien.
+
 ![Build And Run button gemarkeerd in het Build Settings menu](images/7_build_run.png)
 
 Je game zou automatisch moeten openen in je standaard webbrowser en speelbaar moeten zijn.
